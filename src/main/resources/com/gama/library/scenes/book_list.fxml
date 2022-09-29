@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gama.library.controllers.BookList">
+   <children>
+      <TableView fx:id="table_view" prefHeight="800.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="id_cl" prefWidth="75.0" text="Book ID" />
+          <TableColumn fx:id="title_cl" prefWidth="75.0" text="Book Title" />
+            <TableColumn fx:id="author_cl" prefWidth="75.0" text="Author" />
+            <TableColumn fx:id="publisher_cl" prefWidth="75.0" text="Publisher" />
+            <TableColumn fx:id="availability_cl" prefWidth="75.0" text="Availability" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

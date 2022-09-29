@@ -1,0 +1,40 @@
+
+* {
+    -fx-primary-color: #007acc;
+    -fx-secondary-color: #4B6EAF;
+    -fx-grey-color: #b9b9b9;
+
+    -fx-focus-color: -fx-secondary-color;
+}
+
+.text-field {
+    -fx-font-size: 16;
+    -fx-accent: -fx-primary-color;
+    -fx-background-color: -fx-grey-color, white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;
+}
+.text-field:focused {
+    -fx-background-color: -fx-primary-color, white;
+}
+
+.button
+{
+    -fx-background-color:-fx-primary-color ;
+    -fx-background-radius:10 ;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+}
+
+.button:hover
+{
+    -fx-background-color: #4c64f0;
+    -fx-background-radius:10 ;
+}
+
+.button:pressed
+{
+    -fx-background-color: #2F2B43;
+    -fx-background-radius:10 ;
+}
+
